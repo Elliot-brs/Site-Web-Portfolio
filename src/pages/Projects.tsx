@@ -6,29 +6,30 @@ import { Link } from "react-router-dom";
 const Projects = () => {
   const projects = [
     {
-      title: "Gestion de Base de Données",
-      period: "SAÉ - Semestre 3",
-      description:
-        "Projet de conception et implémentation d'une base de données relationnelle pour gérer un système de bibliothèque universitaire.",
-      link: "/projects/database",
-      tags: ["SQL", "PostgreSQL", "Merise"],
-    },
-    {
-      title: "Jeu Python",
-      period: "Code Game Jam - Novembre 2024",
-      description:
-        "Développement d'un jeu de plateforme en Python lors du Code Game Jam sur le thème 'Voyages dans le temps'.",
-      link: "/projects/python-game",
-      tags: ["Python", "Pygame", "POO"],
-    },
-    {
-      title: "Application Web de Gestion",
+      title: "Site web de vote participatif",
       period: "SAÉ - Semestre 4",
       description:
-        "Création d'une application web responsive pour la gestion de tâches collaboratives avec authentification.",
+          "Création d'un site web pour la gestion de votes collaboratifs avec authentification.",
       link: "/projects/web-app",
-      tags: ["React", "TypeScript", "Node.js"],
+      tags: ["PHP", "HTML", "CSS"],
     },
+    {
+      title: "Jeu du 421 en Java",
+      period: "SAÉ - Semestre 1",
+      description:
+        "Projet de conception et implémentation d'un jeu du 421 en Java.",
+      link: "/projects/421",
+      tags: ["Java", "POO", "Intellij"],
+    },
+    {
+      title: "Jeu pour la Code Game Jam",
+      period: "Code Game Jam - Janvier 2025",
+      description:
+        "Développement d'un jeu sur GameMaker, Melo Knight.",
+      link: "/projects/melo-knight-game",
+      tags: ["GML", "Animations pixel art", "Game Design"],
+    },
+
   ];
 
   return (

@@ -8,8 +8,8 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import CV from "./pages/CV";
 import Projects from "./pages/Projects";
-import DatabaseProject from "./pages/projects/DatabaseProject";
-import PythonGameProject from "./pages/projects/PythonGameProject";
+import DatabaseProject from "./pages/projects/421Project.tsx";
+import MeloKnightProject from "./pages/projects/MeloKnightProject.tsx";
 import WebAppProject from "./pages/projects/WebAppProject";
 import NotFound from "./pages/NotFound";
 
@@ -28,8 +28,8 @@ const App = () => (
               <Route path="/" element={<Home />} />
               <Route path="/cv" element={<CV />} />
               <Route path="/projects" element={<Projects />} />
-              <Route path="/projects/database" element={<DatabaseProject />} />
-              <Route path="/projects/python-game" element={<PythonGameProject />} />
+              <Route path="/projects/421" element={<DatabaseProject />} />
+              <Route path="/projects/melo-knight-game" element={<MeloKnightProject />} />
               <Route path="/projects/web-app" element={<WebAppProject />} />
               <Route path="*" element={<NotFound />} />
             </Routes>

@@ -7,13 +7,13 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
             <p className="text-muted-foreground">
-              © {new Date().getFullYear()} Portfolio - Étudiant BUT Informatique
+              © {new Date().getFullYear()} Portfolio - Elliot Brossard
             </p>
           </div>
           
           <div className="flex items-center gap-6">
             <a
-              href="https://github.com"
+              href="https://github.com/Elliot-brs"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -22,7 +22,7 @@ const Footer = () => {
               <Github className="w-5 h-5" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/elliot-brossard-6a654b347"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -31,7 +31,7 @@ const Footer = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="mailto:contact@example.com"
+              href="mailto:elliot.brossard@etu.umontpellier.fr"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="Email"
             >

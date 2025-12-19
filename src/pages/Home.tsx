@@ -19,7 +19,7 @@ const Home = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 animate-fade-in">
               <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-                Étudiant en{" "}
+                Elliot Brossard - {" "}
                 <span className="text-gradient">BUT Informatique</span>
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed">
@@ -86,9 +86,8 @@ const Home = () => {
               <h3 className="text-xl font-semibold mb-4 text-primary">Centres d'intérêt</h3>
               <div className="space-y-3 text-muted-foreground">
                 <p>• Développement d'applications web modernes</p>
-                <p>• Participation à des hackathons</p>
-                <p>• Veille technologique</p>
-                <p>• Open source et collaboration</p>
+                <p>• Robotique</p>
+                <p>• Sports</p>
               </div>
             </Card>
           </div>
@@ -99,8 +98,7 @@ const Home = () => {
               Après l'obtention de mon BUT, je souhaite me spécialiser dans le développement 
               full-stack et contribuer à des projets innovants. Mon objectif est d'intégrer 
               une entreprise dynamique où je pourrai continuer à apprendre et à relever de 
-              nouveaux défis techniques tout en développant mes compétences en architecture 
-              logicielle et en méthodologies agiles.
+              nouveaux défis techniques.
             </p>
           </Card>
         </div>

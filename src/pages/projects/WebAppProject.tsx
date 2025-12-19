@@ -20,7 +20,7 @@ const WebAppProject = () => {
             <div className="w-2 h-16 bg-gradient-to-b from-primary to-accent"></div>
             <div>
               <h1 className="text-4xl md:text-5xl font-bold">
-                Application Web de Gestion
+                Application Web de vote participatif
               </h1>
               <p className="text-primary text-lg mt-2">SAÉ - Semestre 4</p>
             </div>
@@ -32,14 +32,23 @@ const WebAppProject = () => {
             <div>
               <h2 className="text-2xl font-bold mb-3 text-primary">Description</h2>
               <p className="text-foreground leading-relaxed">
-                Création d'une application web responsive pour la gestion de tâches collaboratives. Interface utilisateur moderne avec authentification et gestion des permissions.
+                Création d'une application web responsive pour la gestion de votes collaboratifs. Interface utilisateur moderne avec authentification et gestion des permissions.
               </p>
+
+              <div className="mt-6">
+                <img
+                  src="/CaptureSiteWeb.png"
+                  alt="Capture d'écran de l'application web de vote participatif"
+                  className="w-full rounded-lg border border-border"
+                  loading="lazy"
+                />
+              </div>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold mb-3 text-primary">Contexte</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Projet de fin de semestre visant à mettre en pratique toutes les compétences acquises en développement web full-stack. L'application devait permettre à plusieurs utilisateurs de collaborer sur des projets avec différents niveaux d'accès.
+                Projet de fin de semestre visant à mettre en pratique toutes les compétences acquises en développement web full-stack. L'application devait permettre à plusieurs utilisateurs de voter pour des propositions avec différents niveaux d'accès.
               </p>
             </div>
 
@@ -49,29 +58,15 @@ const WebAppProject = () => {
                 <li className="flex items-start gap-3">
                   <span className="text-primary text-xl mt-1">•</span>
                   <div>
-                    <h3 className="font-semibold text-foreground">Développement front-end avec React et TypeScript</h3>
-                    <p className="text-muted-foreground">Création de composants réutilisables et gestion d'état avec hooks modernes.</p>
+                    <h3 className="font-semibold text-foreground">Développement front-end</h3>
+                    <p className="text-muted-foreground">Gestion du CSS et du responsive avec Bulma.</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary text-xl mt-1">•</span>
                   <div>
-                    <h3 className="font-semibold text-foreground">API REST avec Node.js et Express</h3>
-                    <p className="text-muted-foreground">Conception et implémentation d'une API RESTful sécurisée.</p>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-primary text-xl mt-1">•</span>
-                  <div>
-                    <h3 className="font-semibold text-foreground">Authentification JWT</h3>
-                    <p className="text-muted-foreground">Mise en place d'un système d'authentification sécurisé avec tokens JWT.</p>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-primary text-xl mt-1">•</span>
-                  <div>
-                    <h3 className="font-semibold text-foreground">Design responsive et UX</h3>
-                    <p className="text-muted-foreground">Création d'une interface adaptative et intuitive pour tous les appareils.</p>
+                    <h3 className="font-semibold text-foreground">Mise en place d'une architecture PHP</h3>
+                    <p className="text-muted-foreground">Codé sans framework, nous nous sommes basé sur une architecture MVC.</p>
                   </div>
                 </li>
               </ul>
@@ -81,16 +76,19 @@ const WebAppProject = () => {
               <h2 className="text-2xl font-bold mb-3 text-primary">Technologies</h2>
               <div className="flex flex-wrap gap-2">
                 <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
-                  React
+                  PHP
                 </Badge>
                 <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
-                  TypeScript
+                  HTML
                 </Badge>
                 <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
-                  Node.js
+                  CSS
                 </Badge>
                 <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
-                  REST API
+                  Bulma
+                </Badge>
+                <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
+                  MVC
                 </Badge>
               </div>
             </div>

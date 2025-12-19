@@ -20,9 +20,9 @@ const DatabaseProject = () => {
             <div className="w-2 h-16 bg-gradient-to-b from-primary to-accent"></div>
             <div>
               <h1 className="text-4xl md:text-5xl font-bold">
-                Gestion de Base de Données
+                Création d'un jeu du 421 en Java
               </h1>
-              <p className="text-primary text-lg mt-2">SAÉ - Semestre 3</p>
+              <p className="text-primary text-lg mt-2">SAÉ - Semestre 1</p>
             </div>
           </div>
         </div>
@@ -32,14 +32,14 @@ const DatabaseProject = () => {
             <div>
               <h2 className="text-2xl font-bold mb-3 text-primary">Description</h2>
               <p className="text-foreground leading-relaxed">
-                Projet de conception et implémentation d'une base de données relationnelle pour gérer un système de bibliothèque universitaire. Réalisation du modèle conceptuel, logique et physique.
+                Projet de conception et implémentation d'un jeu du 421. Réalisation du modèle conceptuel, logique et affichage. Le jeu n'avais pas d'interface graphique, les interaction se faisaient à travers le terminale.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold mb-3 text-primary">Contexte</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Dans le cadre de la SAÉ du semestre 3, notre équipe de 4 étudiants a développé une solution complète de gestion de bibliothèque. Ce projet nous a permis de mettre en pratique les concepts de modélisation de données et de requêtes SQL avancées.
+                Dans le cadre de la SAÉ du semestre 1, nous avons développé à deux ce jeu en programmation objet. Ce projet nous a permis de mettre en pratique les concepts de POO et la colaboration avec git.
               </p>
             </div>
 
@@ -49,22 +49,15 @@ const DatabaseProject = () => {
                 <li className="flex items-start gap-3">
                   <span className="text-primary text-xl mt-1">•</span>
                   <div>
-                    <h3 className="font-semibold text-foreground">Maîtrise de SQL et des requêtes complexes</h3>
-                    <p className="text-muted-foreground">Développement de requêtes avancées avec jointures, sous-requêtes et agrégations.</p>
+                    <h3 className="font-semibold text-foreground">Organisation en classes</h3>
+                    <p className="text-muted-foreground">Programmation objet avec gestion des différents classes et boucle de jeu.</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary text-xl mt-1">•</span>
                   <div>
-                    <h3 className="font-semibold text-foreground">Conception de schémas de bases de données normalisées</h3>
-                    <p className="text-muted-foreground">Application des formes normales pour éviter la redondance et garantir l'intégrité des données.</p>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-primary text-xl mt-1">•</span>
-                  <div>
-                    <h3 className="font-semibold text-foreground">Optimisation des performances avec les index</h3>
-                    <p className="text-muted-foreground">Mise en place d'index stratégiques pour améliorer les temps de réponse des requêtes.</p>
+                    <h3 className="font-semibold text-foreground">Java</h3>
+                    <p className="text-muted-foreground">Familiarisation avec la syntaxe Java.</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
